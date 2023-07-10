@@ -12,7 +12,7 @@ const VerifyToken=(req,res) =>{
     catch(e){
      res.status(400).send;
     }
-res.send("hola VerifyToken");
+res.send("hola world");
 }
 const receivedMessage =(req,res)=>{
     res.send("hola Recevied");
